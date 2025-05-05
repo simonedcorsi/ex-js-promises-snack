@@ -31,7 +31,7 @@ const lanciaDado = () => {
                 const risultato = Math.floor(Math.random() * 6) + 1;
                 resolve(risultato);
             }
-        },3000)
+        }, 3000);
     });
 }
 
